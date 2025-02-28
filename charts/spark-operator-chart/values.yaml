@@ -401,7 +401,7 @@ prometheus:
     labels: {}
     # -- The label to use to retrieve the job name from
     jobLabel: spark-operator-podmonitor
-    # -- Prometheus metrics endpoint properties. `metrics.portName` will be used as a port
+    # -- Promestheus metrics endpoint properties. `metrics.portName` will be used as a port
     podMetricsEndpoint:
       scheme: http
       interval: 5s

@@ -173,7 +173,7 @@ See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall) for command docum
 | prometheus.podMonitor.create | bool | `false` | Specifies whether to create pod monitor. Note that prometheus metrics should be enabled as well. |
 | prometheus.podMonitor.labels | object | `{}` | Pod monitor labels |
 | prometheus.podMonitor.jobLabel | string | `"spark-operator-podmonitor"` | The label to use to retrieve the job name from |
-| prometheus.podMonitor.podMetricsEndpoint | object | `{"interval":"5s","scheme":"http"}` | Prometheus metrics endpoint properties. `metrics.portName` will be used as a port |
+| prometheus.podMonitor.podMetricsEndpoint | object | `{"interval":"5s","scheme":"http"}` | Promestheus metrics endpoint properties. `metrics.portName` will be used as a port |
 
 ## Maintainers
 
